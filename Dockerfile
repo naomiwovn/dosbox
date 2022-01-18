@@ -3,7 +3,7 @@ ENV USER=root
 ENV PASSWORD=SHSopticslab
 ENV DEBIAN_FRONTEND=noninteractive 
 ENV DEBCONF_NONINTERACTIVE_SEEN=true
-COPY MOO1 /dos/MOO1
+COPY Lifarc.exe /dos/Lifarc.exe
 RUN apt-get update && \
   echo "tzdata tzdata/Areas select America" > ~/tx.txt && \
   echo "tzdata tzdata/Zones/America select New York" >> ~/tx.txt && \
