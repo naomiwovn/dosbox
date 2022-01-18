@@ -1,6 +1,6 @@
 FROM ubuntu
 ENV USER=root
-ENV PASSWORD=SHSopticslab
+ENV PASSWORD=<password>
 ENV DEBIAN_FRONTEND=noninteractive 
 ENV DEBCONF_NONINTERACTIVE_SEEN=true
 COPY Lifarc.exe /dos/Lifarc.exe
